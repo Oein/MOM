@@ -15,12 +15,22 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+desc {
+  color: gray;
+}
+
+header {
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90vw;
+}
+
+article {
+  margin-left: 5vw;
+  width: 90vw;
+  margin-right: 5vw;
+  border-top: 1px black solid;
+  padding-top: 15px;
+  margin-top: 15px;
 }
